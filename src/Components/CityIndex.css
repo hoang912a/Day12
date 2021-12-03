@@ -1,0 +1,41 @@
+.city{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.product_image_one{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:black;
+    margin: 0 auto;
+}
+.product_image_one>.product{
+    width: 100vw;
+}
+.product_image_one img{
+    width: 100%;
+}
+.product{
+    margin: 0 10px;
+    box-shadow: 0 2px 10px gray;
+}
+.product_image{
+    width: 100%;
+    margin:0px auto;
+}
+.product_content{
+    color:white;
+    width: 100%;
+    margin:0 auto;
+    background-color: orangered;
+    position: relative;
+    top:-3%;
+    text-align: center;
+}
+.product_content>p{
+    height: 20vh;
+    line-height: 20vh;
+
+}
